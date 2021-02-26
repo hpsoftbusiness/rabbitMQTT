@@ -8,6 +8,7 @@ use Symfony\Component\Routing\Annotation\Route;
 use PhpMqtt\Client\MqttClient;
 use PhpMqtt\Client\ConnectionSettings;
 use Psr\Log\LoggerInterface;
+use Symfony\Component\Security\Core\User\UserInterface;
 
 class MqttConnectorController extends AbstractController
 {
@@ -19,6 +20,7 @@ class MqttConnectorController extends AbstractController
     CONST TLS_CERTIFICATE_AUTHORITY_FILE = 'result/ca_certificate.pem';
     CONST TLS_CLIENT_CERTIFICATE_FILE = 'result/client_certificate.pem';
     CONST TLS_CLIENT_CERTIFICATE_KEY_FILE = 'result/client_key_unencrypted.pem';
+    //logowanie tesla password
 
     /**
      * @Route("/mqtt/publisher", name="mqtt_publisher")
