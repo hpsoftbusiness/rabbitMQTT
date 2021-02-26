@@ -1,0 +1,79 @@
+<document version="4" >
+<automat version="7349:1d9d0b1:master" number="0001" salePoint="2" automat="0001"/>
+<event eventId="4" id="412953" module="502" eventNumber="33212" session="1421" dateTime="2021-02-26T06:43:10"/>
+<event eventId="42" id="412954" module="202" eventNumber="33223" session="1421" info="1x[5000] " dateTime="2021-02-26T06:43:16"/>
+<event eventId="0" id="412955" module="307" eventNumber="33234" session="1421" info="Hengstler 0; 220" dateTime="2021-02-26T06:43:20"/>
+<event eventId="0" id="412956" module="307" eventNumber="33239" session="1421" info="Hengstler 0; 220" dateTime="2021-02-26T06:43:23"/>
+<event eventId="251" id="412957" module="109" eventNumber="33242" session="1421" info="[1014] COIN_DISPENSED CHANGE_OK COIN_OUT " dateTime="2021-02-26T06:43:25"/>
+<event eventId="251" id="412958" module="109" eventNumber="33248" session="1421" info="[1014] COIN_DISPENSED CHANGE_OK COIN_OUT " dateTime="2021-02-26T06:43:26"/>
+<event eventId="251" id="412959" module="109" eventNumber="33251" session="1421" info="[1014] COIN_DISPENSED CHANGE_OK COIN_OUT " dateTime="2021-02-26T06:43:28"/>
+<event eventId="251" id="412960" module="109" eventNumber="33254" session="1421" info="[1014] COIN_DISPENSED CHANGE_OK COIN_OUT " dateTime="2021-02-26T06:43:29"/>
+<event eventId="251" id="412961" module="109" eventNumber="33267" session="1421" info="[0020] APPROVED " dateTime="2021-02-26T06:43:35"/>
+<event eventId="5" id="412962" module="502" eventNumber="33268" session="1421" dateTime="2021-02-26T06:43:35"/>
+<event eventId="27" id="412963" module="111" eventNumber="33266" session="1421" dateTime="2021-02-26T06:43:35"/>
+<event eventId="7" id="412964" module="302" eventNumber="33271" session="1421" info="55" dateTime="2021-02-26T06:43:37"/>
+<event eventId="101" id="412965" module="601" eventNumber="33280" session="1421" dateTime="2021-02-26T06:43:40"/>
+<event eventId="8" id="412966" module="302" eventNumber="33327" session="1421" dateTime="2021-02-26T06:44:07">
+<statuses>
+<status eventId="104" unit="11" module="602" status="0" eventNumber="753" session="1280" dateTime="2020-12-04T14:07:55"/>
+<status eventId="0" unit="15" module="307" status="0" eventNumber="74864" session="1380" dateTime="2021-02-02T13:42:22"/>
+<status eventId="28" unit="37" module="101" status="0" eventNumber="38126" session="1410" dateTime="2021-02-19T07:31:56"/>
+<status eventId="0" unit="74" module="309" status="0" eventNumber="38127" session="1410" dateTime="2021-02-19T07:31:57"/>
+<status eventId="0" unit="75" module="310" status="0" eventNumber="38178" session="1410" dateTime="2021-02-19T07:32:22"/>
+<status eventId="120" unit="13" module="602" status="0" eventNumber="3426" session="1413" dateTime="2021-02-19T15:36:46"/>
+<status eventId="120" unit="61" module="602" status="0" eventNumber="3426" session="1413" dateTime="2021-02-19T15:36:46"/>
+<state value="24" unit="askp_voltage_24_stable"/>
+<status eventId="10" unit="1" module="101" status="0" eventNumber="32" session="1421" dateTime="2021-02-26T01:04:06"/>
+<status eventId="8" unit="2" module="101" status="0" eventNumber="36" session="1421" dateTime="2021-02-26T01:04:06"/>
+<status eventId="20" unit="3" module="101" status="0" eventNumber="40" session="1421" dateTime="2021-02-26T01:04:06"/>
+<status eventId="18" unit="4" module="101" status="0" eventNumber="44" session="1421" dateTime="2021-02-26T01:04:06"/>
+<status eventId="50" unit="63" module="101" status="0" eventNumber="88" session="1421" dateTime="2021-02-26T01:04:07"/>
+<status eventId="48" unit="64" module="101" status="0" eventNumber="92" session="1421" dateTime="2021-02-26T01:04:07"/>
+<status eventId="54" unit="65" module="101" status="0" eventNumber="96" session="1421" dateTime="2021-02-26T01:04:07"/>
+<status eventId="52" unit="66" module="101" status="0" eventNumber="100" session="1421" dateTime="2021-02-26T01:04:07"/>
+<status eventId="26" unit="41" module="202" status="0" eventNumber="147" session="1421" dateTime="2021-02-26T01:04:12"/>
+<status eventId="32" unit="51" module="101" status="0" eventNumber="53" session="1421" dateTime="2021-02-26T01:04:12"/>
+<status eventId="34" unit="52" module="101" status="0" eventNumber="54" session="1421" dateTime="2021-02-26T01:04:12"/>
+<status eventId="0" unit="62" module="114" status="0" eventNumber="82" session="1421" dateTime="2021-02-26T01:04:12"/>
+<status eventId="4" unit="7" module="302" status="0" eventNumber="106" session="1421" dateTime="2021-02-26T01:04:12"/>
+<status eventId="0" unit="27" module="805" status="0" eventNumber="129" session="1421" dateTime="2021-02-26T01:04:12"/>
+<status eventId="2" unit="53" module="118" status="0" eventNumber="141" session="1421" dateTime="2021-02-26T01:04:12"/>
+<status eventId="40" unit="49" module="101" status="0" eventNumber="142" session="1421" dateTime="2021-02-26T01:04:12"/>
+<status eventId="20" unit="28" module="202" status="0" eventNumber="146" session="1421" dateTime="2021-02-26T01:04:13"/>
+<status eventId="20" unit="60" module="202" status="0" eventNumber="146" session="1421" dateTime="2021-02-26T01:04:13"/>
+<state value="11" unit="wersja_ASKP0091"/>
+<state value="860" unit="askp_fan_rpm"/>
+<status eventId="250" unit="40" module="109" status="0" eventNumber="176" session="1421" dateTime="2021-02-26T01:04:20"/>
+<status eventId="1" unit="29" module="305" status="0" eventNumber="230" session="1421" dateTime="2021-02-26T01:04:48"/>
+<status eventId="4" unit="10" module="301" status="0" eventNumber="381" session="1421" dateTime="2021-02-26T01:06:13"/>
+<state value="12.5" unit="askp_voltage_12_stable"/>
+<state value="26" unit="askp_temperature_net_switch"/>
+<state value="22" unit="askp_temperature_pcb"/>
+<state value="0.0982" unit="askp_current_battery"/>
+<state value="28" unit="askp_temperature_charger"/>
+<state value="24" unit="askp_temperature_battery_switch"/>
+<state value="29.54" unit="askp_voltage_charger"/>
+<state value="28.24" unit="askp_voltage_battery"/>
+<status eventId="0" unit="14" module="307" status="0" eventNumber="33239" session="1421" dateTime="2021-02-26T06:43:23"/>
+<state value="24.12" unit="askp_voltage_24_notstable"/>
+<status eventId="7" unit="55" module="302" status="0" eventNumber="33271" session="1421" dateTime="2021-02-26T06:43:37"/>
+<state value="37" unit="askp_temperature_2_dcdc_24"/>
+<state value="1" unit="1001"/>
+<state value="35" unit="askp_temperature_1_dcdc_24"/>
+<state value="8" unit="lm_temperature6"/>
+<state value="9" unit="lm_temperature3"/>
+<state value="8.5" unit="lm_temperature5"/>
+<state value="11.5" unit="lm_temperature7"/>
+<state value="0.094" unit="accelerationX"/>
+<state value="35" unit="askp_temperature_dcdc_12"/>
+<state value="0" unit="accelerationY"/>
+<state value="1.034" unit="accelerationZ"/>
+</statuses>
+</event>
+<sale eventId="412953" endEventId="412962" id="20878">
+<cashRaport s50="59" id="26214" b1000="16" result="0" o50="1" h10="43" s2000="9" b50="66" b100="66" s500="25" b20="5" p5000="1" o500="1" s200="70" b500="58" s100="86" o100="1" s1000="6" o10="1" o1000="4" s5000="13" o20="1" b200="62"/>
+<plauen dSaleDateTime="2021-02-26T06:43:18" tName="Einzelfahrt" serialNo="18555" tKind="Erwachsener" destTo="" ticketID="1" id="18485" destFrom="Plauen" price="160" dateTo="" dateFrom=""/>
+<plauen dSaleDateTime="2021-02-26T06:43:18" tName="Einzelfahrt" serialNo="18556" tKind="Erwachsener" destTo="" ticketID="1" id="18486" destFrom="Plauen" price="160" dateTo="" dateFrom=""/>
+<shoppingList type="plauen" id="20960" tariffId="0" price="160" productId="1" count="2"/>
+</sale>
+</document>

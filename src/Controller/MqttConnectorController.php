@@ -80,4 +80,6 @@ class MqttConnectorController extends AbstractController
 
         return new Response(json_encode(true));
     }
+    //toDo
+    //Zrobic pole textarea gdzie wczytuje sie jsona, klika sie guzik i jest generowany xml
 }
