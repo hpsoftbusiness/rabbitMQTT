@@ -8,7 +8,8 @@ use Symfony\Component\Routing\Annotation\Route;
 use PhpMqtt\Client\MqttClient;
 use PhpMqtt\Client\ConnectionSettings;
 use Psr\Log\LoggerInterface;
-use Symfony\Component\Security\Core\User\UserInterface;
+use App\Model\Array2XML;
+use Symfony\Component\HttpFoundation\Request;
 
 class MqttConnectorController extends AbstractController
 {
@@ -80,6 +81,24 @@ class MqttConnectorController extends AbstractController
 
         return new Response(json_encode(true));
     }
-    //toDo
-    //Zrobic pole textarea gdzie wczytuje sie jsona, klika sie guzik i jest generowany xml
+
+    /**
+     * @Route("/mqtt/jsonentry", name="json_entry")
+     */
+    public function jsonEntry()
+    {
+        return $this->render('mqtt_connector/jsonentry.html', []);
+    }
+
+    /**
+     * @Route("/mqtt/parsejson", name="parse_json")
+     */
+    public function parseJson(Request $request)
+    {
+        $json = $request->get('json');
+        $xml = new Array2XML();
+        $output = $xml->parse($json);
+
+        return new Response($output, 200);
+    }
 }

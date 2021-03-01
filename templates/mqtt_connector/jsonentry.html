@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <script>
+            function parseJson() {
+                var text = $('#json').val();
+                $.ajax({
+                    method: "POST",
+                    url: "/mqtt/parsejson",
+                    data: {json: text},
+                    success: function (data) {
+                        $('#xml').val(data);
+                    }
+                });
+            }
+        </script>
+    <body>
+        <h1>Json to xml converter.</h1>
+        <textarea style="float: left;" id="json" rows="35" cols="98">Paste your json.</textarea>
+        <textarea style="float: right;" id="xml" rows="35" cols="100"></textarea>
+        <br>
+        <br>
+        <input type="button" class="btn-danger" style="margin-left: 60em; margin-top: 2em; height: 3em; width: 10em;" id="butt" onclick="parseJson()" value="convert">
+    </body>
+</html>
+
