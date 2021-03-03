@@ -101,4 +101,12 @@ class MqttConnectorController extends AbstractController
 
         return new Response($output, 200);
     }
+
+    /**
+     * @Route("/mqtt/charts", name="mqtt_charts")
+     */
+    public function charts()
+    {
+        return $this->render('mqtt_connector/charts.html.twig', []);
+    }
 }
