@@ -21,7 +21,6 @@ class MqttConnectorController extends AbstractController
     CONST TLS_CERTIFICATE_AUTHORITY_FILE = 'result/ca_certificate.pem';
     CONST TLS_CLIENT_CERTIFICATE_FILE = 'result/client_certificate.pem';
     CONST TLS_CLIENT_CERTIFICATE_KEY_FILE = 'result/client_key_unencrypted.pem';
-    //logowanie tesla password
 
     /**
      * @Route("/mqtt/publisher", name="mqtt_publisher")
@@ -101,9 +100,6 @@ class MqttConnectorController extends AbstractController
 
         return new Response($output, 200);
     }
-
-
-    //message z kolejki trzeba skonsumowac  pobiera z kolejki message wyswietla
 
     /**
      * @Route("/mqtt/charts", name="mqtt_charts")
