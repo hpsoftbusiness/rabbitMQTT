@@ -102,6 +102,9 @@ class MqttConnectorController extends AbstractController
         return new Response($output, 200);
     }
 
+
+    //message z kolejki trzeba skonsumowac  pobiera z kolejki message wyswietla
+
     /**
      * @Route("/mqtt/charts", name="mqtt_charts")
      */
