@@ -1,4 +1,8 @@
 The main purpose of this application is to communicate with RabbitMq queue messaging system via mqtt protocol.
+You can gain access to the application via ldap credentials.
+
+login: tesla
+password: password
 
 controller methods:
 - publisher - action which send message to rabbitmq on given topic
